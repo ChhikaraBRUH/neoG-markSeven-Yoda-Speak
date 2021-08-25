@@ -6,33 +6,49 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Yoda Speak</title>
-    <style>
-        textarea {
-            width: 60%;
-            height: 10vh;
-            display: block;
-            padding: 1rem;
-            margin: 1rem;
-        }
-
-        #output {
-            width: 60%;
-            height: 10vh;
-            border: 1px solid black;
-            padding: 1rem;
-            margin: 1rem;
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <h1>Yoda Speak</h1>
+
+    <nav class="navigation container">
+        <div class="nav-brand">Yoda Speak</div>
+        <ul class="list-non-bullet nav-pills">
+            <li class="list-item-inline">
+                <a class="link link-active" href="/">Home</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="https://github.com/ChhikaraBRUH/neoG-markSeven-Yoda-Speak">Source Code</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="https://bruh.dev">My Portolio</a>
+            </li>
+        </ul>
+    </nav>
+
+    <div id="caution">Put your text in the box below 👇</div>
     <textarea id="txt-input" placeholder="Enter english here and we'll convert it to Yoda language."></textarea>
     <button id="btn-translate">Translate</button>
-    <div style="font-size: larger;">Output will come here 👇</div>
+    <div id="caution">Translation will come here 👇</div>
     <div id="output"></div>
 
     <script src="app.js" type="text/javascript"></script>
+
+    <!-- footer -->
+    <footer class="footer">
+        <div class="footer-header">Connect With Me On My Socials</div>
+        <div id="">Made with ❤️ by <a style="text-decoration: none; color: white;" href="https://bruh.dev">Chaitanya</a>
+        </div>
+        <ul class="social-links list-non-bullet">
+            <li class="list-item-inline"><a class="link" href="https://github.com/ChhikaraBRUH">GitHub</a></li>
+            <li class="list-item-inline"><a class="link" href="https://twitter.com/ChhikaraBRUH">Twitter</a></li>
+            <li class="list-item-inline"><a class="link"
+                    href="https://www.linkedin.com/in/chaitanyachhikara">LinkedIn</a></li>
+        </ul>
+    </footer>
+
+
+
 </body>
 
 </html>

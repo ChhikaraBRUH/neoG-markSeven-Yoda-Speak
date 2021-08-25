@@ -6,7 +6,7 @@ var serverURL = "https://api.funtranslations.com/translate/yoda.json";
 
 function errorHandler(error) {
     console.log("error occured " + error);
-    alert("Something wrong with the server!")
+    alert("You are being rate limited by server. Try again in an hour!")
 }
 
 function getTranslationURL(text) {

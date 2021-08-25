@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;700&display=swap');
+
+:root {
+    --primary-color: #047857;
+    --black: black;
+    --dark-green: #01221a;
+}
+
+body {
+    font-family: 'Comfortaa', cursive;
+    margin: 0px;
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+textarea {
+    width: 60%;
+    height: 10vh;
+    display: block;
+    padding: 1rem;
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-family: 'Comfortaa';
+    font-size: 1.5rem;
+}
+
+::placeholder {
+    font-family: 'Comfortaa';
+    margin: 0px;
+    font-size: 1.5rem;
+}
+
+input {
+    font-family: 'Comfortaa';
+    margin: 0px;
+    font-size: 1.5rem;
+}
+
+#caution {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    font-weight: bold;
+}
+
+#output {
+    width: 60%;
+    min-height: 10vh;
+    border: 1px solid black;
+    padding: 1rem;
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+/* Translate Button */
+#btn-translate {
+    background-color: var(--primary-color);
+    padding: 1.2rem 3rem;
+    font-family: 'Comfortaa';
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    border: 0px;
+    color: white;
+}
+
+/* navigation */
+.navigation {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.navigation .nav-brand {
+    font-weight: bold;
+    font-size: 2.5rem;
+    font: 700;
+}
+
+.navigation .nav-pills {
+    text-align: center;
+    margin: 1rem 1.5rem 0.5rem 1.5rem;
+    font-size: 1.5rem;
+}
+
+.navigation .link {
+    color: rgb(223, 221, 221);
+    text-decoration: none;
+}
+
+.navigation .link-active {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+
+/* lists */
+.list-non-bullet {
+    list-style: none;
+    padding-inline-start: 0px;
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+/* footer */
+
+.footer {
+    background-color: var(--primary-color);
+    text-align: center;
+    color: var(--dark-green);
+    border-top-right-radius: 1rem;
+    padding: 0.5rem 1rem;
+}
+
+.footer .footer-header {
+    font-weight: bold;
+    font-size: 2rem;
+    padding-bottom: 0rem;
+    padding-top: 1rem;
+}
+
+.footer .link {
+    color: var(--dark-green);
+    font-size: 1.4rem;
+    padding: 2rem 1rem;
+}
+
+.footer ul {
+    padding-inline-start: 0px;
+}
